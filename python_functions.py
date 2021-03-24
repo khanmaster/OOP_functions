@@ -31,7 +31,7 @@
 def subtract(num1, num2):
     print("This line is before the return statement")
     return (num1 - num2) # return should be the last statement
-    print("This functions is to subtraction and the out is ") # doesn't get executed
+    print("This line does not get executed ") # doesn't get executed
 
 print(subtract(4, 2))
 
